@@ -6,9 +6,11 @@
 	<title>DSA Entrepreneur</title>
 			<style type="text/css">
 				body{
-					margin: 0;
+					margin: auto;
+					width: 100%;
 					padding: 0;
-					background-image: url("fcetbanner.jpg");
+					/*background-image: url("image/fcetbanner.jpg");*/
+					display: block;
 				}
 				.mainbody{
 					margin: 0 5%;
@@ -24,54 +26,86 @@
 					text-transform: uppercase;
 					text-align: center;
 				}
-				li{
-					background-color: #f00f00;
-					border:3px solid #c00c00;
-					padding: 3px;
-					border-radius: 3px;
+				a{
+
 				}
-				.navbar{
+				li{
+					padding: 3px;
+					border-radius: 5px;
+				}
+				/*.navbar{
 					text-align: center;
 					padding: 5px;
-				}
+				}*/
 				.row{
-					border: 1px solid red;
+					/*border: 1px solid red;*/
 					width: 100%;
 					display: flex;
+				}
+				.col-1{
+					width: 8.33%
+				}
+				.col-2{
+					width: 16.66%
+				}
+				.col-3{
+					width: 25%;
+					/*border:1px solid red;*/
+				}
+				.col-4{
+					width: 33.33%;
+				}
+				.col-5{
+					width: 41.65%
+				}
+				.col-6{
+					width: 50%;
+				}
+				.col-7{
+					width: 58.64%
+					text-align:center;
+				}
+				.col-8{
+					width: 66.66%;
 				}
 				.col-9{
 					width: 75%;
 					padding: 0 10px;
 				}
-				.col-3{
-					width: 25%;
+				img{
+					width: 100%;
+					height: auto;
 				}
-				/*img{
-					border-radius: 50%;
-				}*/
 			</style>
 </head>
 <body>
 	<!-- Main Div for the whole page -->
 	<div class="mainbody">
 		<!-- div for the title -->
-		<div class="navbar">
-			<h2>Degree Student Association</h2>
-		<!-- </div> -->
-		<!-- div for the navigations -->
-		<!-- <div class="navbar"> -->
-			<ul>
-				<li>The Excos</li>
-				<li>Goals and Objectives</li>
-				<li>Our Programme</li>
-				<li>Contact Us</li>
-			</ul>
+		<div class="row">
+				<!-- The logo  -->
+				<div class="col-5">
+					<img src="image/fcetbanner.jpg">
+				</div>
+				<!-- The title and navigation bar -->
+				<div class="navbar col-7">
+					<h2>Degree Student Association</h2>
+				<!-- </div> -->
+				<!-- div for the navigations -->
+				<!-- <div class="navbar"> -->
+					<ul>
+						<li><a href="index.html">The Excos</a></li>
+						<li><a href="#">Goals and Objectives</a></li>
+						<li><a href="#">Our Programme	</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
 		</div>
 		<!-- Div for the rest of the body -->
 		<!-- The President -->
 		<div class="row">
 			<div class="col-3">
-				<img src="fcetbanner.jpg" width="100%">
+				<img src="image/fcetbanner.jpg" width="100%">
 			</div>
 			<div class="col-9">
 				<h2>The President</h2>
@@ -86,7 +120,7 @@
 		<!-- Vice President -->
 		<div class="row">
 			<div class="col-3">
-				<img src="fcetbanner.jpg" width="100%">
+				<img src="image/fcetbanner.jpg" width="100%">
 			</div>
 			<div class="col-9">
 				<h2>Vice President</h2>
@@ -100,7 +134,7 @@
 		</div>
 		<div class="row">
 			<div class="col-3">
-				<img src="fcetbanner.jpg" width="100%">
+				<img src="image/fcetbanner.jpg" width="100%">
 			</div>
 			<div class="col-9">
 				<h2>Academic Director</h2>
